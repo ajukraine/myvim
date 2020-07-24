@@ -1,0 +1,9 @@
+[submodule "pack/lang/start/Ionide-vim"]
+	path = pack/lang/start/Ionide-vim
+	url = https://github.com/ionide/Ionide-vim
+[submodule "pack/lang/start/LanguageClient-neovim"]
+	path = pack/lang/start/LanguageClient-neovim
+	url = https://github.com/autozimu/LanguageClient-neovim
+[submodule "pack/visual/start/conoline.vim"]
+	path = pack/visual/start/conoline.vim
+	url = https://github.com/miyakogi/conoline.vim.git

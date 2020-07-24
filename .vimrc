@@ -1,7 +1,26 @@
 " Turn off compatibility mode
 set nocompatible
 
-" Turn on syntax highlighting
+let mapleader = ","
+
+" Vim packages
+set packpath=~/.myvim
+
+"" conoline.vim
+" git clone https://github.com/miyakogi/conoline.vim.git
+let g:conoline_auto_enable = 1
+
+"" LanguageClient
+" git clone https://github.com/autozimu/LanguageClient-neovim
+nmap <leader>d <Plug>(lcn-definition)
+nmap <leader>h <Plug>(lcn-hover)
+nmap <leader>e <Plug>(lcn-explain-error)
+
+"" Ionide
+" git clone https://github.com/ionide/Ionide-vim
+
+" Turn all: 'plugin', 'indent' and 'detection'
+filetype plugin indent on
 syntax on
 
 set mouse=a
@@ -19,19 +38,29 @@ set hidden
 " %V - vertical column number
 " %P - percentage through file
 set statusline=%<%f\ %y%h%m%r%=%-14.(%l,%c%V%)\ %P
+set laststatus=2
 
 " Use spaces instead of tabs
 set expandtab
 
-set tabstop=2
-set shiftwidth=2
+" Disable soft wrap
+set nowrap
+
+" Disable physical wrap
+set textwidth=0
+set wrapmargin=0
+
+" set autoindent
+" set tabstop=2
+" set shiftwidth=2
 set backspace=2
 set scrolloff=5
 
 colorscheme pablo
 
-set number
+set number relativenumber
 hi LineNr ctermfg=8
 
-let mapleader = ","
 nnoremap <leader>w :w<CR>
+nnoremap <leader>q :q<CR>
+nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR>
