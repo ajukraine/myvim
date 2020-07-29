@@ -36,6 +36,16 @@ set hidden
 set statusline=%<%f\ %y%h%m%r%=%-14.(%l,%c%V%)\ %P
 set laststatus=2
 
+let g:lightline = {
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+      \ },
+      \ 'component_function': {
+      \   'gitbranch': 'gitbranch#name'
+      \ },
+      \ }
+
 " Use spaces instead of tabs
 set expandtab
 

@@ -31,3 +31,9 @@
 [submodule "pack/colors/opt/vim-wombat256"]
 	path = pack/colors/opt/vim-wombat256
 	url = https://github.com/vim-scripts/wombat256.vim
+[submodule "pack/visual/start/lightline.vim"]
+	path = pack/visual/start/lightline.vim
+	url = https://github.com/itchyny/lightline.vim
+[submodule "pack/visual/start/vim-gitbranch"]
+	path = pack/visual/start/vim-gitbranch
+	url = https://github.com/itchyny/vim-gitbranch
