@@ -10,3 +10,6 @@
 [submodule "pack/edit/start/commentary"]
 	path = pack/edit/start/commentary
 	url = https://tpope.io/vim/commentary.git
+[submodule "pack/lang/start/vim-polyglot"]
+	path = pack/lang/start/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot
