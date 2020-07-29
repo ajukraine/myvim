@@ -7,3 +7,6 @@
 [submodule "pack/visual/start/conoline.vim"]
 	path = pack/visual/start/conoline.vim
 	url = https://github.com/miyakogi/conoline.vim.git
+[submodule "pack/edit/start/commentary"]
+	path = pack/edit/start/commentary
+	url = https://tpope.io/vim/commentary.git
