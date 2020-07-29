@@ -6,10 +6,6 @@ let mapleader = ","
 " Vim packages
 set packpath=~/.myvim
 
-"" conoline.vim
-" git clone https://github.com/miyakogi/conoline.vim.git
-let g:conoline_auto_enable = 1
-
 "" LanguageClient
 " git clone https://github.com/autozimu/LanguageClient-neovim
 nmap <leader>d <Plug>(lcn-definition)
@@ -56,10 +52,12 @@ set wrapmargin=0
 set backspace=2
 set scrolloff=5
 
-colorscheme pablo
+set termguicolors
+
+colorscheme monokai-bold
 
 set number relativenumber
-hi LineNr ctermfg=8
+set cursorline
 
 nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>

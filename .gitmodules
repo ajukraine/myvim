@@ -4,12 +4,30 @@
 [submodule "pack/lang/start/LanguageClient-neovim"]
 	path = pack/lang/start/LanguageClient-neovim
 	url = https://github.com/autozimu/LanguageClient-neovim
-[submodule "pack/visual/start/conoline.vim"]
-	path = pack/visual/start/conoline.vim
-	url = https://github.com/miyakogi/conoline.vim.git
 [submodule "pack/edit/start/commentary"]
 	path = pack/edit/start/commentary
 	url = https://tpope.io/vim/commentary.git
 [submodule "pack/lang/start/vim-polyglot"]
 	path = pack/lang/start/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot
+[submodule "pack/colors/opt/vim-monokai-bold"]
+	path = pack/colors/opt/vim-monokai-bold
+	url = https://github.com/Mcmartelle/vim-monokai-bold
+[submodule "pack/colors/opt/vim-synthwave84"]
+	path = pack/colors/opt/vim-synthwave84
+	url = https://github.com/artanikin/vim-synthwave84
+[submodule "pack/colors/opt/vim-corvine"]
+	path = pack/colors/opt/vim-corvine
+	url = https://github.com/arzg/vim-corvine
+[submodule "pack/colors/opt/vim-gruvbox-material"]
+	path = pack/colors/opt/vim-gruvbox-material
+	url = https://github.com/sainnhe/gruvbox-material
+[submodule "pack/colors/opt/vim-vscode-theme"]
+	path = pack/colors/opt/vim-vscode-theme
+	url = https://github.com/dunstontc/vim-vscode-theme
+[submodule "pack/colors/opt/vim-horizon"]
+	path = pack/colors/opt/vim-horizon
+	url = https://github.com/ntk148v/vim-horizon
+[submodule "pack/colors/opt/vim-wombat256"]
+	path = pack/colors/opt/vim-wombat256
+	url = https://github.com/vim-scripts/wombat256.vim
