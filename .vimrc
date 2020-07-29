@@ -1,7 +1,7 @@
 " Turn off compatibility mode
 set nocompatible
 
-let mapleader = ","
+let mapleader = " "
 
 " Vim packages
 set packpath=~/.myvim
@@ -40,7 +40,7 @@ set laststatus=2
 set expandtab
 
 " Disable soft wrap
-set nowrap
+" set nowrap
 
 " Disable physical wrap
 set textwidth=0
@@ -58,6 +58,9 @@ colorscheme monokai-bold
 
 set number relativenumber
 set cursorline
+
+" Set continuous horizontal split line
+set fillchars+=vert:│
 
 nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>
