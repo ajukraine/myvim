@@ -64,10 +64,18 @@ set scrolloff=5
 
 set termguicolors
 
-colorscheme monokai-bold
+if has('nvim')
+  colorscheme horizon
+else
+  " horizon theme doesn't work property in Vim
+  colorscheme monokai-bold
+endif
 
 set number relativenumber
 set cursorline
+
+autocmd WinEnter * setlocal cursorline
+autocmd WinLeave * setlocal nocursorline
 
 " Set continuous horizontal split line
 set fillchars+=vert:│
