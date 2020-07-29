@@ -48,17 +48,13 @@ let g:lightline = {
 
 " Use spaces instead of tabs
 set expandtab
+set shiftwidth=4
+set softtabstop=4
 
-" Disable soft wrap
-" set nowrap
-
-" Disable physical wrap
+" Disable physical wrapping
 set textwidth=0
 set wrapmargin=0
 
-" set autoindent
-" set tabstop=2
-" set shiftwidth=2
 set backspace=2
 set scrolloff=5
 
@@ -72,14 +68,15 @@ else
 endif
 
 set number relativenumber
-set cursorline
 
+set cursorline
 autocmd WinEnter * setlocal cursorline
 autocmd WinLeave * setlocal nocursorline
 
 " Set continuous horizontal split line
 set fillchars+=vert:│
 
+" Misc key bindings
 nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>
 nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR>

@@ -37,3 +37,6 @@
 [submodule "pack/visual/start/vim-gitbranch"]
 	path = pack/visual/start/vim-gitbranch
 	url = https://github.com/itchyny/vim-gitbranch
+[submodule "pack/edit/start/editorconfig-vim"]
+	path = pack/edit/start/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim
