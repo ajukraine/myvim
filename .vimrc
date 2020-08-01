@@ -22,6 +22,7 @@ syntax on
 set mouse=a
 
 set hidden
+set wildmenu
 
 "" Statusline
 " %f - path to the file
