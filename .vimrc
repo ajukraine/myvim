@@ -80,3 +80,4 @@ set fillchars+=vert:│
 nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>
 nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR>
+nnoremap <leader>n :bnext<CR>
