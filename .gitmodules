@@ -31,3 +31,6 @@
 [submodule "pack/edit/start/editorconfig-vim"]
 	path = pack/edit/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim
+[submodule "pack/edit/start/supertab"]
+	path = pack/edit/start/supertab
+	url = https://github.com/ervandew/supertab
