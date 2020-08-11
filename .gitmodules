@@ -34,3 +34,6 @@
 [submodule "pack/edit/start/supertab"]
 	path = pack/edit/start/supertab
 	url = https://github.com/ervandew/supertab
+[submodule "pack/lang/start/vim-fish"]
+	path = pack/lang/start/vim-fish
+	url = https://github.com/dag/vim-fish
