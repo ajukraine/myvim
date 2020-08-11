@@ -59,7 +59,9 @@ set wrapmargin=0
 set backspace=2
 set scrolloff=5
 
-set termguicolors
+if $COLORTERM == 'truecolor'
+    set termguicolors
+endif
 
 if has('nvim')
   colorscheme horizon
