@@ -1,6 +1,7 @@
 " Turn off compatibility mode
 set nocompatible
 
+" Map <leader> key to <Space>
 let mapleader = " "
 
 " Vim packages
@@ -19,12 +20,17 @@ nmap <leader>e <Plug>(lcn-explain-error)
 filetype plugin indent on
 syntax on
 
+" Enable mouse
 set mouse=a
 
 set hidden
+
+" Enable completion in command mode
 set wildmenu
 
 "" Statusline
+" If 'lightline' is not available, then fallback to built-in status line
+"
 " %f - path to the file
 " %y - type of the file, lile [vim]
 " %h - writes [help], if this is help buffer
@@ -37,6 +43,7 @@ set wildmenu
 set statusline=%<%f\ %y%h%m%r%=%-14.(%l,%c%V%)\ %P
 set laststatus=2
 
+"" Lightline config
 let g:lightline = {
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
@@ -47,7 +54,7 @@ let g:lightline = {
       \ },
       \ }
 
-" Use spaces instead of tabs
+" Use spaces instead of tabs, set default tab width
 set expandtab
 set shiftwidth=4
 set softtabstop=4
@@ -56,7 +63,10 @@ set softtabstop=4
 set textwidth=0
 set wrapmargin=0
 
+" Enable <Backspace>
 set backspace=2
+
+" Set bottom and top padding
 set scrolloff=5
 
 if $COLORTERM == 'truecolor'
@@ -66,7 +76,7 @@ endif
 if has('nvim')
   colorscheme horizon
 else
-  " horizon theme doesn't work property in Vim
+  " horizon theme doesn't work properly in Vim
   colorscheme monokai-bold
 endif
 
