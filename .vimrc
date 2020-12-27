@@ -5,7 +5,7 @@ set nocompatible
 let mapleader = " "
 
 " Vim packages
-set packpath=~/.myvim
+let &packpath = fnamemodify(resolve(expand('<sfile>:p')), ':h')
 
 "" LanguageClient
 " git clone https://github.com/autozimu/LanguageClient-neovim
