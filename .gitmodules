@@ -9,7 +9,8 @@
 	url = https://tpope.io/vim/commentary.git
 [submodule "pack/colors/opt/vim-monokai-bold"]
 	path = pack/colors/opt/vim-monokai-bold
-	url = https://github.com/Mcmartelle/vim-monokai-bold
+	url = https://github.com/ajukraine/vim-monokai-bold
+	branch = fix-cannot-find-color-scheme-monokai
 [submodule "pack/colors/opt/vim-synthwave84"]
 	path = pack/colors/opt/vim-synthwave84
 	url = https://github.com/artanikin/vim-synthwave84
