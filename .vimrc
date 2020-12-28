@@ -13,6 +13,9 @@ nmap <leader>d <Plug>(lcn-definition)
 nmap <leader>h <Plug>(lcn-hover)
 nmap <leader>e <Plug>(lcn-explain-error)
 
+" Commentary
+nmap <leader>cc <Plug>CommentaryLine
+
 "" Ionide
 " git clone https://github.com/ionide/Ionide-vim
 
