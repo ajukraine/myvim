@@ -9,4 +9,9 @@ To use it's config file you should start Vim with '-u' param like:
 vim -u ~/.myvim/.vimrc
 ```
 
+Or create a symlink in your home directory:
+```bash
+ln -s ~/.myvim/.vimrc ~/.vimrc
+```
+
 For ease of use just make an alias for that command in your favorite shell (I use 'neo' for Neovim version and 'myvim' for Vim).
