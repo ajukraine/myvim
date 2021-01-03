@@ -9,6 +9,8 @@ let &packpath = fnamemodify(resolve(expand('<sfile>:p')), ':h')
 
 "" LanguageClient
 " git clone https://github.com/autozimu/LanguageClient-neovim
+" cd LanguageClient-neovim
+" bash install.sh
 nmap <leader>d <Plug>(lcn-definition)
 nmap <leader>h <Plug>(lcn-hover)
 nmap <leader>e <Plug>(lcn-explain-error)
