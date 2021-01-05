@@ -41,3 +41,6 @@
 [submodule "pack/lang/start/jedi-vim"]
 	path = pack/lang/start/jedi-vim
 	url = https://github.com/davidhalter/jedi-vim
+[submodule "pack/lang/start/vim-toml"]
+	path = pack/lang/start/vim-toml
+	url = https://github.com/cespare/vim-toml.git
