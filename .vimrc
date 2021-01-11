@@ -74,6 +74,8 @@ set backspace=2
 " Set bottom and top padding
 set scrolloff=5
 
+set signcolumn=yes
+
 if $COLORTERM == 'truecolor'
     set termguicolors
 endif
