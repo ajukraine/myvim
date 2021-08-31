@@ -76,15 +76,13 @@ set scrolloff=5
 
 set signcolumn=yes
 
-if $COLORTERM == 'truecolor'
+if $COLORTERM == 'truecolor' && exists('+termguicolors')
     set termguicolors
-endif
-
-if has('nvim')
-  colorscheme horizon
+    colorscheme horizon
 else
-  " horizon theme doesn't work properly in Vim
-  colorscheme monokai-bold
+    " Fallack to safe colorscheme, that works in non-gui Vim and simpler
+    " terminals
+    colorscheme monokai-bold
 endif
 
 set number relativenumber
